@@ -89,7 +89,7 @@ class Test():
         options = webdriver.ChromeOptions()
         options.add_argument('--incognito')  # Запуск браузера в режиме инкогнито
         ##self.driver = webdriver.Chrome(ChromeDriverManager().install())   # ЭТО НАДО ДОБАВИТЬ В ХРОМДРАЙВЕР ФЕДЕ
-        self.driver = webdriver.Chrome(r'C:\Users\abykov.RUTUBE\Documents\GitHub\smoke\chromedriver.exe') #(options=options) у меня был 78 номер 'C:/Users/Алексей Быков/Projects/qa-tests-master/Regress_web/chromedriver.exe'
+        #self.driver = webdriver.Chrome(r'C:\Users\abykov.RUTUBE\Documents\GitHub\smoke\chromedriver.exe') #(options=options) у меня был 78 номер 'C:/Users/Алексей Быков/Projects/qa-tests-master/Regress_web/chromedriver.exe'
         #self.driver = webdriver.Chrome(r'C:\Users\abykov.RUTUBE\Desktop\driver\chromedriver.exe')  # это для дженкинса
         #self.driver = webdriver.Chrome(options=options)
         self.driver.get("https://www.tvzavr.ru/")
