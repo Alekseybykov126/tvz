@@ -91,7 +91,7 @@ class Test():
         ##self.driver = webdriver.Chrome(ChromeDriverManager().install())   # ЭТО НАДО ДОБАВИТЬ В ХРОМДРАЙВЕР ФЕДЕ
         #self.driver = webdriver.Chrome(r'C:\Users\abykov.RUTUBE\Documents\GitHub\smoke\chromedriver.exe') #(options=options) у меня был 78 номер 'C:/Users/Алексей Быков/Projects/qa-tests-master/Regress_web/chromedriver.exe'
         self.driver = webdriver.Chrome(r'C:\Users\abykov.RUTUBE\.jenkins\workspace\29\chromedriver.exe')  # это для дженкинса
-        self.driver = webdriver.Chrome(options=options)
+        #self.driver = webdriver.Chrome(options=options)
         self.driver.get("https://www.tvzavr.ru/")
         self.driver.maximize_window()
         self.driver.implicitly_wait(10)
@@ -102,8 +102,8 @@ class Test():
         self.admin = Admin(self.driver)
         self.card = CardFilm(self.driver)
 
-    def teardown(self):
-        self.driver.close()
+    # def teardown(self):
+    #     self.driver.close()
 
     # def test_case_00(self):
     #     case_00(self, 0)
