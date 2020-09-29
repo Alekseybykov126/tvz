@@ -1,0 +1,3 @@
+[submodule "Regress_web"]
+	path = Regress_web
+	url = git@code.tvzavr.ru:bykov.a/regresswebtests.git

@@ -1,0 +1,10 @@
+*.pyc
+*.pyw
+*.pyo
+__pycache__/
+.*cache/
+.vscode
+.python-version
+*.exe
+*.TMP
+*.pma
