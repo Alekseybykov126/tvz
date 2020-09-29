@@ -102,8 +102,8 @@ class Test():
         self.admin = Admin(self.driver)
         self.card = CardFilm(self.driver)
 
-    def teardown(self):
-        self.driver.close()
+    # def teardown(self):
+    #     self.driver.close()
 
     # def test_case_00(self):
     #     case_00(self, 0)
