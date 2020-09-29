@@ -640,8 +640,7 @@ class MainPage(BasePage):
     def send_sms(self, phone, message):  # Функция отправки смс
         logging.info("Вызов функции отправки СМС")
         chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument(
-            "user-data-dir=C:\\Users\\user\\AppData\\Local\\Google\\Chrome\\User Data")  # Запуск браузера с сохраненным профилем
+        chrome_options.add_argument("user-data-dir=C:\\Users\\user\\AppData\\Local\\Google\\Chrome\\User Data")  # Запуск браузера с сохраненным профилем
         self.driver = webdriver.Chrome(chrome_options=chrome_options)
         self.driver.get("https://app.mysms.com/")
         self.driver.implicitly_wait(10)
