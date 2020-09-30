@@ -1,4 +1,4 @@
-from .page import * 
+from page import *
 
 time.sleep(3)
 def case_6_1(self, full_screen):

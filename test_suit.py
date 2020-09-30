@@ -1,5 +1,6 @@
 import pytest
 from selenium import webdriver
+from page import *
 #from webdriver_manager.chrome import ChromeDriverManager
 
 #from Regress_web.test_case_00 import case_00 # Проигрывание рандомных фильмов циклом
@@ -80,7 +81,7 @@ from test_case_6_1 import case_6_1 # Проверка работоспособн
 
 
 import pytest
-from page import *
+#from page import *
 
 
 class Test():
