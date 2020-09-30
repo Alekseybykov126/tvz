@@ -1,4 +1,4 @@
-import requests
+#import requests
 from selenium import webdriver
 from bs4 import BeautifulSoup
 from selenium.webdriver.support.ui import WebDriverWait
