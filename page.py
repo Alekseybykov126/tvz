@@ -1,13 +1,13 @@
 #import requests
 from selenium import webdriver
-#from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from datetime import datetime
 import logging
-from page import *
+#from .page import *
 #import pyautogui
 from selenium.webdriver.support.select import Select
 import pytest

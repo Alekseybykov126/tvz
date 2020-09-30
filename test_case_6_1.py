@@ -1,10 +1,11 @@
-from page import *
+from .page import *
 
 time.sleep(3)
 def case_6_1(self, full_screen):
     self.page.loger('\n Запуск Тест кейс № 6_1 tvweb_new-6_1: Проверка работоспособности верхних разделов \n')
 
     # Автоматическая смена слайдов
+    time.sleep(5)
     self.page.loger('Шаг 1. Проверка автоматической смены слайдов')
     slide_1 = str(self.result.find_x("div", "owl-item active")) 
     self.page.loger('Слайд до автоматической смены: ' + slide_1)

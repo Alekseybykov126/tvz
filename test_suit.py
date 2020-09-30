@@ -1,6 +1,6 @@
 import pytest
 from selenium import webdriver
-from page import *
+from .page import *
 #from webdriver_manager.chrome import ChromeDriverManager
 
 #from Regress_web.test_case_00 import case_00 # Проигрывание рандомных фильмов циклом
@@ -61,7 +61,7 @@ from page import *
 
 
 ### 6) Переходы/работоспособность
-from test_case_6_1 import case_6_1 # Проверка работоспособности верхних разделов
+from .test_case_6_1 import case_6_1 # Проверка работоспособности верхних разделов
 #from .test_case_6_2 import case_6_2 # Проверка работоспособности нижних разделов и проверка обратной связи
 #from .test_case_6_3 import case_6_3 # Проверка работоспособности вкладок и ссылок в разделе Приложения
 #from .test_case_6_4 import case_6_4 # Проверка работы карты сайта
